@@ -1,5 +1,5 @@
 {
-    "name": "atymic/twitter",
+    "name": "jemware/twitter",
     "description": "Twitter API for PHP & Laravel",
     "keywords": ["twitter", "laravel", "laravel5", "laravel6"],
     "license": "MIT",
@@ -16,6 +16,12 @@
             "homepage": "https://iamreliq.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/jemware/PHP-DI.git"
+        },
+    ],
     "require": {
         "php": "^7.4 || ^8.0",
         "ext-json": "*",
@@ -24,7 +30,7 @@
         "psr/log": "^1.1 || ^2.0 || ^3.0",
         "nesbot/carbon": "^1.2 || ^2.26",
         "guzzlehttp/oauth-subscriber": "^0.6",
-        "php-di/php-di": "^6.2",
+        "jemware/php-di": "dev-master",
         "kamermans/guzzle-oauth2-subscriber": "^1.0",
         "phpoption/phpoption": "^1.7",
         "vlucas/phpdotenv": "*",
